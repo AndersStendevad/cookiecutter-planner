@@ -36,4 +36,3 @@ class Helper:
 def helper():
     """Helper for tests."""
     return Helper
-

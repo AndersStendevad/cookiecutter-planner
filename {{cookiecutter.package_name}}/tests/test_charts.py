@@ -8,4 +8,3 @@ def test_chart_creation(helper):
     helper.check_result(
         run("ls", shell=True, capture_output=True)
     )
-
