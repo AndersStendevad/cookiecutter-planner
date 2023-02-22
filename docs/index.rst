@@ -1,0 +1,13 @@
+Welcome to cookiecutter-planning version |release|!
+===================================================
+
+This is a template for Documentation in a planning project.
+
+.. include:: ../README.md
+   :parser: myst_parser.sphinx_
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   cookiecutter

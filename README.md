@@ -1,4 +1,4 @@
-# cookiecutter-planning
+# cookiecutter-planner
 
 A work in progress cookiecutter to be able to start a planning project.
 
