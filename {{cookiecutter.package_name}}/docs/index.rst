@@ -6,3 +6,5 @@ Welcome to {{cookiecutter.package_name}}'s documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   slides

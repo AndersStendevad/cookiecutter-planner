@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "{{cookiecutter.package_name}}"
-copyright = "2022, {{cookiecutter.author}}"
+copyright = "2024, {{cookiecutter.author}}"
 author = "{{cookiecutter.author}}"
 
 # The full version, including alpha/beta/rc tags
@@ -31,8 +31,8 @@ release = "0.0.1"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 
-import sphinx_rtd_theme  # noqa
 import sphinx_click  # noqa
+import sphinx_rtd_theme  # noqa
 
 extensions = [
     "sphinx.ext.autodoc",
@@ -41,6 +41,7 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx_rtd_theme",
     "sphinx_click",
+    "sphinx_revealjs",
     "myst_parser",
 ]
 
